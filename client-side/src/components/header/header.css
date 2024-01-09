@@ -1,0 +1,8 @@
+.navbar-input{
+    border: 1px solid grey;
+}
+
+.navbar-input-submit{
+    border: 1px solid grey;
+    border-left: none;
+}
