@@ -14,7 +14,7 @@ const Header = () => {
   const {currentUser} = useSelector(state => state.user)
   
   const [openMenu, setOpenMenu] = useState(false);
-  const [lang, setLang] = useState(false)
+  const [lang, setLang] = useState(true)
   const {t} = useTranslation()
 
   const languages = [
