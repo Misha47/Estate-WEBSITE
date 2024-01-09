@@ -40,7 +40,7 @@ app.listen(3000, () => {
 app.use('/api/user/', UserRoute);
 app.use('/api/auth/', AuthRoute);
 app.use('/api/listing/', ListingRoute);
-app.use(express.static(path.join(__dirname, '/client/dist')))
+app.use(express.static(path.join(__dirname, '/client-side/dist')))
 
 app.use((err, req, res, next) => {
     const statusCode = err.statusCode || 500;
