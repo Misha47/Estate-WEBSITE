@@ -99,7 +99,7 @@ export default function HomePage() {
           ))}
       </Swiper> */}
       <form className="w-[80%] mx-auto mt-52 md:mb-0 bg-slate-200 border-double border-4 border-slate-600 flex md:justify-center" >
-        <input className="bg-grey-lightest navbar-input outline-none p-2 pl-5 bg-white shadow-inner xl:w-[80%] h-16 text-xl" placeholder={t('search')} type="text" />
+        <input className="bg-grey-lightest navbar-input outline-none p-2 pl-5 bg-white shadow-inner xl:w-[60%] h-16 text-xl" placeholder={t('search')} type="text" />
         <button className='box-border bg-slate-300 navbar-input-submit saturate-0 flex justify-center items-center w-96 xl:w-[20%] h-16 hover:text-slate-50 hover:bg-slate-500 duration-300'>
           <span>{t('search')}</span>
           <span>🔍</span>
